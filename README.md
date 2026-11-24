@@ -16,4 +16,17 @@
 
 ## 部署
 
-將本資料夾內容推送到 GitHub Pages，或把資料夾拖到 Netlify Drop 即可。若使用 Godot，可將同樣的關卡資料與互動邏輯移植到 Godot HTML5 專案；目前版本先確保網頁端能直接展示與部署。
+將本資料夾內容推送到 GitHub Pages，或把資料夾拖到 Netlify Drop 即可。
+
+## Godot Web 版本
+
+`godot/` 已包含 Godot 4 專案原始碼。請以 Godot 4.x 開啟 `godot/project.godot`，加入 Web export preset 後輸出到 `web/`。目前環境沒有 Godot executable，因此尚未產生 Godot 的 `.wasm`／`.pck` 匯出檔；根目錄 HTML 版本仍可直接遊玩。
+
+設計與流程文件：
+
+- `project-state.yaml`
+- `project-brief.md`
+- `game-design-tournament.md`
+- `requirements.md`
+- `decision-log.md`
+- `change-log.md`

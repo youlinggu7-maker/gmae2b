@@ -1,0 +1,19 @@
+project: little-dream-demon-finance
+version: 0.2.0
+mode: teaching
+current_phase: godot_web_build
+dt_handoff: approved_by_user_scope
+selected_gameplay: A
+platform: Godot 4 HTML5 / GitHub Pages
+audience: 小學生
+learning_goal: 能辨識儲蓄、目標規劃、分散投資與投資風險
+constraints:
+  - 兩個關卡
+  - 每關至少一個互動單元，通過才能取得 KEY
+  - 每關顯示分數，結尾顯示進步成果
+  - 可部署成網頁版
+  - 不使用未授權的 Little Nightmares 資產
+known_blockers:
+  - Godot executable unavailable in current environment
+  - Blender executable and project assets unavailable in current environment
+next_action: Open godot/project.godot in Godot 4.x and export Web

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="小小夢魔：生活理財投資教育遊戲" />
+  <title>小小夢魔｜理財投資夜航</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">✦</span><div><strong>小小夢魔</strong><small>理財投資夜航</small></div></div>
+      <div class="hud"><span class="hud-pill"><i>◆</i> 得分 <b id="score">0</b></span><span class="hud-pill"><i>🔑</i> KEY <b id="keys">0 / 2</b></span></div>
+    </header>
+
+    <main id="app">
+      <section id="start-screen" class="screen active">
+        <div class="moon"></div><div class="stars"></div>
+        <div class="start-content">
+          <p class="eyebrow">DREAMY FINANCE ACADEMY · 01</p>
+          <h1>小小夢魔<span>的理財夜航</span></h1>
+          <p class="lead">今晚，夢魔要穿越兩座迷霧房間。<br/>學會讓零用錢去對的地方，找回兩把閃亮的 KEY！</p>
+          <button class="primary" id="start-btn">開始夜航 <span>→</span></button>
+          <div class="learn-row"><span>✦</span> 生活理財投資 · 適合小學生 · 2 個互動單元</div>
+        </div>
+        <div class="silhouette city"></div><div class="little-hero">●<span>▾</span></div>
+      </section>
+
+      <section id="level-screen" class="screen">
+        <div class="scene scene-one"><div class="scene-glow"></div><div class="window"><span></span></div><div class="shelf"></div><div class="lantern">✦</div></div>
+        <div class="level-intro"><p class="eyebrow" id="level-kicker">DREAM ROOM · 01</p><h2 id="level-title">零用錢的第一個家</h2><p id="level-desc">每一枚硬幣，都可以替未來點亮一盞燈。</p><button class="primary" id="enter-btn">進入互動單元 <span>→</span></button></div>
+      </section>
+
+      <section id="quiz-screen" class="screen">
+        <div class="quiz-wrap"><div class="quiz-top"><span class="chapter" id="quiz-chapter">互動單元 01 / 02</span><span id="progress-label">準備好了嗎？</span></div><div class="progress"><span id="progress-bar"></span></div>
+          <article class="card" id="quiz-card"><div class="card-icon" id="quiz-icon">☾</div><p class="eyebrow" id="quiz-eyebrow">小小選擇，大大未來</p><h2 id="question"></h2><p class="question-note" id="question-note"></p><div id="answers" class="answers"></div><div id="feedback" class="feedback"></div><button class="primary next-btn" id="next-btn">確認選擇 <span>→</span></button></article>
+        </div>
+      </section>
+
+      <section id="result-screen" class="screen"><div class="result-orb">✦</div><p class="eyebrow">NIGHT JOURNEY COMPLETE</p><h2>你找回了所有 KEY！</h2><p class="result-lead">夢境的霧散開了。每一次聰明的選擇，<br/>都讓未來的自己更有力量。</p><div class="result-grid"><div class="result-stat"><small>本次得分</small><strong id="final-score">0</strong><span>/ 100</span></div><div class="result-stat"><small>收集 KEY</small><strong id="final-keys">2</strong><span>/ 2</span></div></div><div class="growth"><div class="growth-head"><span>你的理財進步成果</span><b id="growth-level">理財小星探</b></div><div class="meter"><span id="growth-meter"></span></div><p id="growth-copy">你已經學會先思考，再做選擇！</p></div><button class="primary" id="restart-btn">再航行一次 <span>↻</span></button><p class="tiny">小提醒：儲蓄讓夢想有起點，分散投資讓風險不迷路。</p></section>
+    </main>
+    <footer><span>© 小小夢魔的理財夜航</span><span>SPACE 也可以前進 · 建議使用電腦瀏覽</span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

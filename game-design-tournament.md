@@ -48,4 +48,4 @@
 2. Paper dream atlas：紙張地圖、蠟筆色錢幣與手繪圖示；兒童辨識度高，3D 感較弱。
 3. Soft 3D diorama：低多邊形房間、立體 KEY、柔和燈光；需 Blender 資產與較高製作成本。
 
-Current visual choice: 1 as deployable fallback; 3 deferred until Blender is available.
+Current visual choice: 3, approved by user on 2026-11-24. All future scenes, characters, materials, lighting, UI backdrop, and animation should follow this low-poly 3D direction.

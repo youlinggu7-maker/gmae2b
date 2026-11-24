@@ -4,6 +4,7 @@ mode: teaching
 current_phase: godot_web_build
 dt_handoff: approved_by_user_scope
 selected_gameplay: A
+visual_direction: soft_low_poly_3d
 platform: Godot 4 HTML5 / GitHub Pages
 audience: 小學生
 learning_goal: 能辨識儲蓄、目標規劃、分散投資與投資風險
@@ -15,5 +16,5 @@ constraints:
   - 不使用未授權的 Little Nightmares 資產
 known_blockers:
   - Godot executable unavailable in current environment
-  - Blender executable and project assets unavailable in current environment
-next_action: Open godot/project.godot in Godot 4.x and export Web
+  - ImageGen built-in tool unavailable in current environment; visual selection was made from the approved direction brief
+next_action: Import blender/little_dream_demon_lowpoly.glb into Godot and export Web when Godot 4.x is available
